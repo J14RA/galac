@@ -276,6 +276,16 @@ video {
     max-width: 1536px;
   }
 }
+
+/* The navigation bar */
+.fixed {
+  position: fixed;
+  top: Ø;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.8s ease, opacity 0.7s ease;
+}
+
 .absolute {
   position: absolute;
 }
@@ -880,12 +890,7 @@ body {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
 }
-.secondary-menu li:not(:first-child) a {
-  border-left-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(75 85 99 / var(--tw-border-opacity));
-  padding-left: 1rem;
-}
+
 .header-search-form {
   position: relative !important;
   margin-left: 1.5rem !important;

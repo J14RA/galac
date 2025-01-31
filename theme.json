@@ -175,15 +175,10 @@
       "letterSpacing": true,
       "textDecoration": true
     },
-    "layout": {
-      "contentSize": "800px",
-      "wideSize": "1100px"
-    },
     "spacing": {
       "margin": true,
       "padding": true,
-      "units": ["px", "rem", "vh", "vw", "%"],
-      "blockGap": true
+      "units": ["px", "rem", "vh", "vw", "%"]
     }
   },
   "styles": {
@@ -239,8 +234,7 @@
         "bottom": "0px",
         "left": "0px",
         "right": "0px"
-      },
-      "blockGap": "4rem"
+      }
     }
   },
   "customTemplates": [
